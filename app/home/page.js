@@ -7,11 +7,13 @@ export default function Homepage() {
 
   return (
     <main>
-      <div className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold">Welcome to News & Blogs World</h1>
+      <div className="lg:flex items-center justify-between">
+        <h1 className="text-2xl font-bold lg:mt-0 p-3 lg:p-0">
+          Welcome to News & Blogs World
+        </h1>
         <div className="">
           <Link href="../blog">
-            <p className="font-bold">Explore Blog ⇾</p>
+            <p className="font-bold mt-3 lg:mt-0 p-3 lg:p-0">Explore Blog ⇾</p>
           </Link>
         </div>
       </div>
