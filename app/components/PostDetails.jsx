@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Sidebar from "./Sidebar";
 import SinglePostContent from "./SinglePostContent";
 

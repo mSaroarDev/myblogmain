@@ -14,7 +14,7 @@ const Sidebar = () => {
             return (
               <li className="mb-2" key={index}>
                 »{" "}
-                <span className="hover:underline cursor-pointer">
+                <span className="hover:underline cursor-pointer font-fontBn">
                   <Link href={`../post/${post.id}`}>{post.title}</Link>
                 </span>
               </li>

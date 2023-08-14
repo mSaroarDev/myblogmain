@@ -13,8 +13,8 @@ export default function Post({ pmeter }) {
             <Image width={350} height={300} src={image} alt="Shoes" />
           </figure>
           <div className="card-body">
-            <h2 className="font-bold text-base">{title}</h2>
-            <p className="text-sm">{excert}</p>
+            <h2 className="font-bold text-base font-fontBn">{title}</h2>
+            <p className="text-sm font-fontBn">{excert}</p>
             <div className="card-actions justify-between items-center">
               <p>On: {postedOn}</p>
               <p>By: {author}</p>

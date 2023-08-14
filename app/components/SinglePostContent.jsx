@@ -9,7 +9,7 @@ const SinglePostContent = ({ post }) => {
   return (
     <>
       <div className="w-full md:max-w-full lg:max-w-2/3 shadow-md rounded-md p-8">
-        <h1 className="font-bold text-4xl mb-5">{title}</h1>
+        <h1 className="font-bold text-4xl mb-5 font-fontBn">{title}</h1>
 
         <p className="text-base mb-5">
           Posted On: {postedOn}, Posted By: {author}
@@ -17,7 +17,7 @@ const SinglePostContent = ({ post }) => {
 
         <Image src={image} alt="Image" width={1000} height={300} />
 
-        <p className="mt-5">{content}</p>
+        <p className="mt-5 font-fontBn">{content}</p>
       </div>
     </>
   );
