@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import logo from "../../public/logo.png";
 
 export default function Appnav() {
   return (
@@ -8,7 +10,7 @@ export default function Appnav() {
           <div className="navbar ">
             <div className="flex-1">
               <Link href="/" className="normal-case text-xl">
-                Blog
+                <Image src={logo} width={220} height={80} alt="Next News24" />
               </Link>
             </div>
             <div className="flex-none">
