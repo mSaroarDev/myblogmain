@@ -16,10 +16,5 @@ export default function SingleBlog({ params }) {
     <main>
       <PostDetails post={post} />
     </main>
-
-    // <main>
-    //   <h1>Post ID: {postID}</h1>
-    //   {/* You can fetch and render your post details here */}
-    // </main>
   );
 }
